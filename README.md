@@ -10,14 +10,14 @@ Open repository then
 git push heroku master
 ```
 
-to update the frontend running [todo](here)
+to update the frontend running [here](https://protected-fjord-14295.herokuapp.com/)
 
 ## Server logs
 
 To see server log use
 
 ```
-export HEROKU_APP=todo
+export HEROKU_APP=protected-fjord-14295
 heroku logs -n 100
 ```
 
