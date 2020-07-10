@@ -10,7 +10,7 @@ Open repository then
 git push heroku master
 ```
 
-to update the frontend running [https://protected-fjord-14295.herokuapp.com](here)
+to update the frontend running [https://protected-fjord-14295.herokuapp.com/](here)
 
 ## Server logs
 
