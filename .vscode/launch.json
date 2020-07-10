@@ -2,6 +2,16 @@
     "version": "0.2.0",
     "configurations": [
       {
+        "name": "Launch server.js via node",
+        "type": "node",
+        "request": "launch",
+        "runtimeExecutable": "node",
+        "program": "${workspaceFolder}/server.js",
+        "restart": true,
+        "console": "integratedTerminal",
+        "internalConsoleOptions": "neverOpen"
+      },
+      {
         "name": "ng serve",
         "type": "chrome",
         "request": "launch",
