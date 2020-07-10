@@ -1,23 +1,16 @@
 # Frontend
 
-ready to deploy to heroku
+ready to deploy to firebase
 
-## Heroku
+## Firebase
 
 Open repository then
 
 ```
-git push heroku master
+ng build --prod
+firebase login
+firebase init
+firebase deploy
 ```
 
-to update the frontend running [here](https://protected-fjord-14295.herokuapp.com/)
-
-## Server logs
-
-To see server log use
-
-```
-export HEROKU_APP=protected-fjord-14295
-heroku logs -n 100
-```
-
+to update the frontend running [here](https://flaskangularfrontend.web.app/)
